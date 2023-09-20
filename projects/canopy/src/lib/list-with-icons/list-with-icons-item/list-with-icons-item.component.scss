@@ -1,0 +1,14 @@
+@import '../../../styles/mixins';
+
+.lg-list-with-icons-item {
+  // background: lime;
+  // margin-left: 10px;
+  display: list-item;
+  list-style: none;
+}
+
+.lg-list-with-icons-item .lg-list-with-icons-item {
+  margin-left: 10px;
+  display: list-item;
+  list-style: none;
+}

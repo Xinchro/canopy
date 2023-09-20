@@ -1,0 +1,38 @@
+import { Meta, Source } from '@storybook/addon-docs';
+import Feedback from '../../docs/common/feedback.md';
+
+<Meta title="Components/List with icons/Guide" parameters={{ viewMode: 'docs', previewTabs: { canvas: { hidden: true } } }} />
+
+# List with icons
+
+<p class="standfirst">List with icons is used to list an array of items and icons.</p>
+
+## Usage
+
+Import the list with icons module in your application:
+
+```js
+@NgModule({
+  ...
+  imports: [ ..., LgListModule ],
+});
+```
+
+Register the icons as explained in the [iconography guide](//add link here).
+
+and in your HTML:
+
+<Source id="components-list-with-icons-examples--standard-list-with-icons"></Source>
+
+
+## Additional development details
+
+### LgListComponent
+This is where the list items are projected.
+
+### LgListWithIconsItemComponent
+this is whatever
+
+---
+
+<Feedback />
